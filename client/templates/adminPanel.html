@@ -1,0 +1,12 @@
+<!-- client/templates/adminPanel.html -->
+<head>
+  <title>Admin Panel</title>
+</head>
+<body>
+  {{#if isAdmin}}
+    <h1>Welcome, Admin!</h1>
+    <!-- Добавьте здесь админский функционал -->
+  {{else}}
+    <p>You do not have permission to access this page.</p>
+  {{/if}}
+</body>
